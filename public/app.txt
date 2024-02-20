@@ -5,6 +5,7 @@ Things i learnt
 -Token creation typically occurs during the authentication phase of a user's lifecycle. user logs in , the server validates the credentials, then generates a JWT (JSON Web Token) as a means of authentication. The generated token is then sent back to the client in the response.The client stores the received token in an HTTP cookie or in local storage. For all subsequent requests requiring authentication (e.g., accessing protected routes), the client includes the token in the request headers.
 -Used daisyui in production made UI work easier by far.
 -altering .eslintrc.cjs file for custom performance
+
 -Note, can login with any input in app. Just done to generate token. Signup too just to delete token. Essence is that to edit or delete you need to be signed in.
 -Search bar and options on NavBar do not work. Only there for UI, not wired up with required functionality.
 -react-router-dom mini tutorial, as Next.js simple solution has spoilt me to not worrying about routing
